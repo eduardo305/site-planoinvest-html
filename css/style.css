@@ -35,6 +35,10 @@ p {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
+
+.home_text {
+  font-size: 24px;
+}
 /*---------------------------------------
    COMMON STYLES
 -----------------------------------------*/
@@ -94,6 +98,11 @@ p {
       padding-top: 20px;
     }
 }
+
+.home_text {
+  max-width: 430px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         background-color: transparent;
@@ -132,6 +141,14 @@ p {
     .navbar-nav>li>a {
         padding-top: 45px;
     }
+
+    .home_text h1 {
+      font-size: 70px;
+      line-height: 68px;
+      color: #263238;
+      font-weight: 800;
+      margin-top: 0px;
+    }
 }
 @media (max-width: 768px) {
     .navbar-brand img {
@@ -149,21 +166,27 @@ p {
     color: #f39c12;
 }
 .header {
-    background: url(../images/home.jpg);
+    background: url(../images/pig-background.jpeg);
     background-size: cover;
 	background-repeat: no-repeat;
 }
 .header .section_overlay {
-    background-color: rgba(33, 33, 33, .75);
+    background-color: rgba(33, 33, 33, 0.05);
 }
-.logo{
+.logo {
     padding-bottom: 50px;
 }
+
+.logo img {
+  display: none;
+}
+
 .home_text{
     text-align: left;
 }
 .home-iphone{
     text-align: right;
+    display: none;
 }
 .home-iphone img{
     width: 100%;
@@ -177,22 +200,24 @@ p {
         text-align: center;
     }
 
+    .home_text h1 {
+      color: #263238;
+      font-weight: 800;
+      font-size: 40px;
+      line-height: 47px;
+      margin-top: 0px;
+    }
+
+    .home_text p {
+      color: #263238;
+      font-size: 18px;
+      line-height: 28px;
+      margin-top: 0px;
+      font-weight: 300;
+    }
+
 }
-.home_text h1 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 300;
-    line-height: 45px;
-    padding-top: 30px
-}
-.home_text p {
-    color: #fff;
-    font-size: 17px;
-    line-height: 28px;
-    margin-top: 0px;
-    font-weight: 300;
-}
+
 .download-btn {
     margin-top: 90px;
     margin-bottom: 50px
