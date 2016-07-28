@@ -168,7 +168,8 @@ p {
 .header {
     background: url(../images/pig-background.jpg);
     background-size: cover;
-	background-repeat: no-repeat;
+	  background-repeat: no-repeat;
+    background-position: 50% 50% !important;
 }
 .header .section_overlay {
     background-color: rgba(33, 33, 33, 0.05);
